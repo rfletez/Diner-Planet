@@ -7,6 +7,7 @@ import { useNavigate } from 'react-router-dom';
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './Components/Home';
+import AboutUs from './Components/AboutUs';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Routes>
             <Route path="/" element={ <Home /> } />
             <Route index element={ <Home /> } />
+            <Route path='/about' element={ <AboutUs/> } />
         </Routes>
       </BrowserRouter>
     </div>
