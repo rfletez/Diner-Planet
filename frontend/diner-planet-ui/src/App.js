@@ -6,7 +6,7 @@ import { axios } from 'axios';
 import { useNavigate } from 'react-router-dom';
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Home from './StartingPages/Home';
+import Home from './Components/Home';
 
 
 function App() {
